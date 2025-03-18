@@ -33,9 +33,9 @@ The GIPL2 model includes seven parameters:
 - **FHC**: Thawed heat conductivities (W/(m·K)).
 
 ## Methodology
-- **LHS Method**: The parameter space is sampled using the Latin Hypercube Sampling (LHS) method to generate 10,000 parameter sets. For demonstration purposes, the GIPL2 model example is limited to 100 samples to expedite the testing process.
+- **LHS Method**: In this study, the parameter space is sampled using the Latin Hypercube Sampling (LHS) method to generate 10,000 parameter sets. For demonstration purposes, the GIPL2 model example is limited to 100 samples to expedite the testing process.
 - **GLUE Framework**: The Generalized Likelihood Uncertainty Estimation (GLUE) framework is applied, using the mean bias as the likelihood function.
-- **Observational Data**: Example code utilizes observation data from Borehole No. 66 to compare model outputs. The TTOP model runs for the year 2010, aligning with the observation period of Borehole No. 66. The GIPL2 model runs for the period 1960-2010.
+- **Observational Data**: The example code utilizes observation data from Borehole No. 66 to compare model outputs for quick computation. The TTOP model runs for the year 2010, aligning with the observation period of Borehole No. 66, while the GIPL2 model runs for the period 1960–2010.
 
 ## File Structure
 - **data/**
